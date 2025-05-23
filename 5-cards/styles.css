@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #14141f;
+  overflow: hidden;
+}
+.cardSelected {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.cards {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+div.container {
+  background-color: #343444;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-images {
+  border-radius: 1rem;
+  margin-bottom: 0 auto;
+}
+
+.card-image {
+  position: relative;
+}
+.div-image-icon {
+  display: flex;
+  color: white;
+  gap: 2px;
+  background-color: black;
+  width: fit-content;
+  padding: 7px 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-title {
+  margin: 1rem 0;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+span {
+  background-color: #5142fc;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem 1rem;
+  font-weight: 600;
+  color: white;
+}
+.card-footer {
+  width: 100%;
+}
+.card-footer,
+.div-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+.div-text {
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.div-text p {
+  color: white;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.account-image {
+  border-radius: 1rem;
+}
+
+.card-footer button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #5142fc;
+  background-color: transparent;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
